@@ -1,0 +1,47 @@
+.spCcssTemplates, .spCcssPostTypes{
+    background: #f0f0f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+#shortpixel_critical_css .form-table td{
+    width: 85%;
+}
+.form-table td fieldset .spCcssTemplates label, .form-table td fieldset .spCcssPostTypes label {
+    margin: 0 10px !important;
+    vertical-align: top;
+    width: 30%;
+    padding: 4px 0;
+}
+.post_type_values,.template_values{
+    display:none;
+}
+.ccss_top_actions {
+    cursor: pointer;
+    border: 1px solid #135e96;
+    border-bottom-color: rgb(31, 190, 201);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: none;
+    margin-left: 1.5em;
+    padding: 5px 5px;
+    font-size: 5px;
+    line-height: 1.71428571;
+    font-weight: 600;
+    background: #135e96;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    outline: 0;
+    display: inline-block;
+}
+.ccss-icon {
+    background: url(../img/clearcss-white.svg) top left no-repeat;
+    background-size: auto;
+    background-size: cover;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+}
+.ccss_top_actions.disabled {
+    background: #dcdcde;
+}

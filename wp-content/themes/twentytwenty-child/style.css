@@ -1,0 +1,107 @@
+/*
+Theme Name: Twenty Twenty Child
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Template: twentytwenty
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog,one-column,custom-background,custom-colors,custom-logo,custom-menu,editor-style,featured-images,footer-widgets,full-width-template,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,block-patterns,block-styles,wide-blocks,accessibility-ready
+Version: 2.2.1694012726
+Updated: 2023-09-06 17:05:26
+
+*/
+
+/* .boutoncommander { 
+    background-color: black;
+} */
+/* .menu-item  { 
+    background-color: yellow;
+} */
+
+/* HEADER */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Syne", sans-serif; /* Définissez votre police par défaut ici */
+}
+
+#site-header.sticky-top {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style de la barre de navigation personnalisée */
+#custom-navigation-bar {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Aligner au centre verticalement */
+  width: 100%;
+  
+}
+
+.custom-logo {
+  max-height: 100%;
+}
+
+.custom-primary-menu {
+  display: flex;
+  align-items: center; /* Aligner au centre verticalement */
+}
+
+.custom-navigation-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.custom-navigation-links li {
+  margin: 0;
+  display: inline-block;
+}
+
+.custom-navigation-links a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Syne", sans-serif;
+  font-size: 19px;
+  display: block;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-navigation-links a:hover {
+  text-decoration: none;
+  background-color: #dc9f96;
+  color: #ffffff;
+}
+
+/* footer style ............. */
+.header-footer-group a {
+  text-decoration: none;
+  color: #000000;
+  size: 16px;
+  font-weight: 400;
+}
+.header-footer-group li {
+  text-align: center;
+
+  align-items: center;
+}
+/* ..........footer style */
